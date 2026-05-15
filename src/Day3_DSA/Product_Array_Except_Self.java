@@ -37,6 +37,6 @@ public class Product_Array_Except_Self {
        }
         System.out.println("suffix:- " + Arrays.toString(fin));
 
-        return null;
+        return fin;
     }
 }
