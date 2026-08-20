@@ -31,7 +31,7 @@ class eraseOverlapIntervals {
             {
                 prev = i;
                 count++;
-                //sumanth
+                //changes
             }
         }
         return n - count;
