@@ -12,12 +12,6 @@ public class Generate_Parentheses
       Sol_Generate_Parentheses solGenerateParentheses = new Sol_Generate_Parentheses();
       solGenerateParentheses.generate(result, n,0,0,"");
       System.out.println("Result in string one shot: "+ result);
-
-//      for(String i : result)
-//      {
-//          System.out.println("Result in string for each: "+ i);
-//      }
-
     }
 }
 
@@ -44,5 +38,4 @@ class Sol_Generate_Parentheses
             generate(result, max, open, close+1, str+")");
         }
     }
-
 }
