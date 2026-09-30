@@ -14,9 +14,7 @@ public class Daily_Temperatures
        int[] result = solDailyTemperatures.nextDegree(temperatures);
 
        System.out.println("Result:" + Arrays.toString(result));
-
     }
-
 }
 
 class Sol_Daily_Temperatures
@@ -38,6 +36,7 @@ class Sol_Daily_Temperatures
             {
                 result[idx] = stack.peek() - idx;
             }
+
             // pushing the first index
             stack.push(idx);
         }
