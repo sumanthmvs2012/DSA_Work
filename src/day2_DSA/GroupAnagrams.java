@@ -24,6 +24,7 @@ public class GroupAnagrams
             char[] ch1 = s.toCharArray();
             Arrays.sort(ch1);
             String sorted = new String(ch1);
+            System.out.println("Arrays:- " + sorted);
 
             if(!lstr.containsKey(sorted))
             {
