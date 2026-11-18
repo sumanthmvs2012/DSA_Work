@@ -12,9 +12,6 @@ public class Remove_Nth_Node
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
 
-        // N value
-        //int n = 2;
-
         // Call solution
         Sol_remove_Nth_Node sol = new Sol_remove_Nth_Node();
         head = sol.removeNthFromEnd(head, 2);
